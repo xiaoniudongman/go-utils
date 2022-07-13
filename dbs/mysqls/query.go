@@ -3,7 +3,7 @@ package mysqls
 import (
 	sql_ "database/sql"
 
-	"github.com/xndm-recommend/go-utils/tools/errs"
+	"github.com/xiaoniudongman/go-utils/tools/errs"
 )
 
 //http://jmoiron.github.io/sqlx/

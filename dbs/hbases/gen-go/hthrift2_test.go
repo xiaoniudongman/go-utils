@@ -3,7 +3,7 @@ package gen_go
 import (
 	"testing"
 
-	"github.com/xndm-recommend/go-utils/dbs/hbases"
+	"github.com/xiaoniudongman/go-utils/dbs/hbases"
 )
 
 const (

@@ -3,9 +3,9 @@ package converter
 import (
 	"strconv"
 
-	"github.com/xndm-recommend/go-utils/tools/errs"
+	"github.com/xiaoniudongman/go-utils/tools/errs"
 
-	"github.com/xndm-recommend/go-utils/tools/types/strs"
+	"github.com/xiaoniudongman/go-utils/tools/types/strs"
 )
 
 // str2other

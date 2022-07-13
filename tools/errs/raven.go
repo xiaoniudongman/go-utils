@@ -4,7 +4,7 @@ import (
 	"github.com/cihub/seelog"
 	"github.com/getsentry/raven-go"
 	"github.com/pkg/errors"
-	"github.com/xndm-recommend/go-utils/tools/logs"
+	"github.com/xiaoniudongman/go-utils/tools/logs"
 )
 
 func SentryCaptureError(err error) {

@@ -1,8 +1,8 @@
 package versions
 
 import (
-	"github.com/xndm-recommend/go-utils/config"
-	"github.com/xndm-recommend/go-utils/tools/types/strs"
+	"github.com/xiaoniudongman/go-utils/config"
+	"github.com/xiaoniudongman/go-utils/tools/types/strs"
 )
 
 type VersionMethod interface {

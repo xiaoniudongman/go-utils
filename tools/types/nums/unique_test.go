@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/xndm-recommend/go-utils/tools/maths"
+	"github.com/xiaoniudongman/go-utils/tools/maths"
 )
 
 const length = 30000

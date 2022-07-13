@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xndm-recommend/go-utils/tools/errs"
+	"github.com/xiaoniudongman/go-utils/tools/errs"
 
-	"github.com/xndm-recommend/go-utils/config"
-	"github.com/xndm-recommend/go-utils/dbs/rediss"
-	"github.com/xndm-recommend/go-utils/tools/converter"
+	"github.com/xiaoniudongman/go-utils/config"
+	"github.com/xiaoniudongman/go-utils/dbs/rediss"
+	"github.com/xiaoniudongman/go-utils/tools/converter"
 )
 
 const (

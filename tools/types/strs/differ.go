@@ -1,7 +1,7 @@
 package strs
 
 import (
-	"github.com/xndm-recommend/go-utils/common/consts"
+	"github.com/xiaoniudongman/go-utils/common/consts"
 )
 
 var PerfThrDiff = 100

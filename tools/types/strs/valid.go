@@ -3,7 +3,7 @@ package strs
 import (
 	"strings"
 
-	"github.com/xndm-recommend/go-utils/common/consts"
+	"github.com/xiaoniudongman/go-utils/common/consts"
 )
 
 // 有效字符串判断

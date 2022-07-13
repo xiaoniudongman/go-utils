@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/apache/thrift/lib/go/thrift"
-	"github.com/xndm-recommend/go-utils/dbs/hbases/gen-go/hbase"
+	"github.com/xiaoniudongman/go-utils/dbs/hbases/gen-go/hbase"
 )
 
 const (

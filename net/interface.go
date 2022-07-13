@@ -4,7 +4,7 @@ package net
 有关Http协议GET和POST请求的封装
 */
 import (
-	"github.com/xndm-recommend/go-utils/config"
+	"github.com/xiaoniudongman/go-utils/config"
 )
 
 type HTTPMethod interface {

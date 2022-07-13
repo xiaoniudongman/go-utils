@@ -3,8 +3,8 @@ package strs
 import (
 	"fmt"
 
-	"github.com/xndm-recommend/go-utils/common/consts"
-	"github.com/xndm-recommend/go-utils/tools/maths"
+	"github.com/xiaoniudongman/go-utils/common/consts"
+	"github.com/xiaoniudongman/go-utils/tools/maths"
 )
 
 // cut strs

@@ -1,6 +1,6 @@
-module github.com/xndm-recommend/go-utils
+module github.com/xiaoniudongman/go-utils
 
-go 1.14
+go 1.18
 
 require (
 	github.com/RoaringBitmap/roaring v0.5.5

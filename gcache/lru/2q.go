@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/xndm-recommend/go-utils/gcache/simplelru"
+	"github.com/xiaoniudongman/go-utils/gcache/simplelru"
 )
 
 const (

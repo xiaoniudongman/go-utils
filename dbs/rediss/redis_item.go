@@ -4,10 +4,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xndm-recommend/go-utils/tools/errs"
+	"github.com/xiaoniudongman/go-utils/tools/errs"
 
 	"github.com/go-redis/redis"
-	"github.com/xndm-recommend/go-utils/config"
+	"github.com/xiaoniudongman/go-utils/config"
 )
 
 type RedisItemMethod interface {
@@ -282,4 +282,10 @@ func (this *ItemInfo) GetRedisItemFromConf(c *config.ConfigEngine, name string) 
 	this.size = int64(ret.Len)
 	this.expire = time.Duration(ret.Expire) * time.Second
 	errs.CheckEmptyValue(this.prefix)
+}
+
+func (this *ItemInfo) CreateRedisItem(prefix string, length, expire int) {
+	this.prefix = prefix
+	this.size = int64(length)
+	this.expire = time.Duration(expire) * time.Second
 }

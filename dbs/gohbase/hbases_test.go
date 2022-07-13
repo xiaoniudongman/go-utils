@@ -6,8 +6,8 @@ import (
 
 	"github.com/tsuna/gohbase/filter"
 	"github.com/tsuna/gohbase/hrpc"
-	"github.com/xndm-recommend/go-utils/config"
-	"github.com/xndm-recommend/go-utils/tools/errs"
+	"github.com/xiaoniudongman/go-utils/config"
+	"github.com/xiaoniudongman/go-utils/tools/errs"
 )
 
 const (

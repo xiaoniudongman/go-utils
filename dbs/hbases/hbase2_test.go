@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xndm-recommend/go-utils/dbs/hbases"
-	"github.com/xndm-recommend/go-utils/dbs/hbases/gen-go/hbase"
+	"github.com/xiaoniudongman/go-utils/dbs/hbases"
+	"github.com/xiaoniudongman/go-utils/dbs/hbases/gen-go/hbase"
 
 	"github.com/apache/thrift/lib/go/thrift"
 )

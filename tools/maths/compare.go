@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/xndm-recommend/go-utils/common/consts"
+	"github.com/xiaoniudongman/go-utils/common/consts"
 
 	"github.com/pkg/errors"
 )

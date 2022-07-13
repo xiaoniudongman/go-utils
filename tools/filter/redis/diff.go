@@ -1,8 +1,8 @@
 package redis
 
 import (
-	"github.com/xndm-recommend/go-utils/dbs/rediss"
-	"github.com/xndm-recommend/go-utils/tools/converter"
+	"github.com/xiaoniudongman/go-utils/dbs/rediss"
+	"github.com/xiaoniudongman/go-utils/tools/converter"
 )
 
 type RedisBitMap struct {

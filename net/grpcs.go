@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/xndm-recommend/go-utils/tools/errs"
+	"github.com/xiaoniudongman/go-utils/tools/errs"
 
 	"google.golang.org/grpc"
 )

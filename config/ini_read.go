@@ -4,7 +4,7 @@ package config
 有关ini配置文件的封装
 */
 import (
-	"github.com/xndm-recommend/go-utils/tools/errs"
+	"github.com/xiaoniudongman/go-utils/tools/errs"
 	"gopkg.in/ini.v1"
 )
 

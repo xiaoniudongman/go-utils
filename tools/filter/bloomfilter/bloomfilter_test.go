@@ -3,19 +3,19 @@ package bloomfilter
 import (
 	"testing"
 
-	"github.com/xndm-recommend/go-utils/tools/errs"
+	"github.com/xiaoniudongman/go-utils/tools/errs"
 
-	"github.com/xndm-recommend/go-utils/tools/filter/bitmap"
+	"github.com/xiaoniudongman/go-utils/tools/filter/bitmap"
 
-	"github.com/xndm-recommend/go-utils/tools/types/nums"
+	"github.com/xiaoniudongman/go-utils/tools/types/nums"
 
 	cuckoo "github.com/seiflotfy/cuckoofilter"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"github.com/xndm-recommend/go-utils/config"
-	"github.com/xndm-recommend/go-utils/dbs/rediss"
-	"github.com/xndm-recommend/go-utils/tools/converter"
-	"github.com/xndm-recommend/go-utils/tools/maths"
+	"github.com/xiaoniudongman/go-utils/config"
+	"github.com/xiaoniudongman/go-utils/dbs/rediss"
+	"github.com/xiaoniudongman/go-utils/tools/converter"
+	"github.com/xiaoniudongman/go-utils/tools/maths"
 )
 
 const lenth = 300000

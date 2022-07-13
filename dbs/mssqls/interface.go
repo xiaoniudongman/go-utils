@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xndm-recommend/go-utils/tools/errs"
+	"github.com/xiaoniudongman/go-utils/tools/errs"
 
 	"github.com/jmoiron/sqlx"
 
 	_ "github.com/denisenkom/go-mssqldb"
-	"github.com/xndm-recommend/go-utils/config"
+	"github.com/xiaoniudongman/go-utils/config"
 )
 
 type MssqlMethod interface {

@@ -2,8 +2,8 @@ package rediss
 
 import (
 	"github.com/go-redis/redis"
-	"github.com/xndm-recommend/go-utils/config"
-	"github.com/xndm-recommend/go-utils/tools/errs"
+	"github.com/xiaoniudongman/go-utils/config"
+	"github.com/xiaoniudongman/go-utils/tools/errs"
 )
 
 type RedisDbInfo struct {
@@ -30,11 +30,12 @@ func (this *RedisDbInfo) GetRedisConnFromConf(c *config.ConfigEngine, name strin
 	this.poolSize = redis_login.Pool_size
 }
 
-func (this *RedisDbInfo) CreateSingleClient(addr, password string, poolSize int) {
+func (this *RedisDbInfo) CreateSingleClient(addr, password string, poolSize int, db int) {
 	redisDB := redis.NewClient(&redis.Options{
 		Addr:     addr,
 		PoolSize: poolSize,
 		Password: password,
+		DB:       db,
 	})
 	_, err := redisDB.Ping().Result()
 	errs.CheckFatalErr(err)

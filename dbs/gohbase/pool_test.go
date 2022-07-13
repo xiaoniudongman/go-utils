@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/xndm-recommend/go-utils/dbs/gohbase"
-	"github.com/xndm-recommend/go-utils/dbs/hbases/gen-go/hbase"
+	"github.com/xiaoniudongman/go-utils/dbs/gohbase"
+	"github.com/xiaoniudongman/go-utils/dbs/hbases/gen-go/hbase"
 )
 
 //func TestHbaseGets(t *testing.T) {
